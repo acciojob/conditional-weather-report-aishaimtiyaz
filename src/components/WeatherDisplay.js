@@ -8,7 +8,7 @@ const WeatherDisplay = ({weatherInput}) => {
 
     <div>
          <h2>Current Weather</h2>
-         {weatherInput.temperature > 20 ? <p style={{color:"red"}}>Temperature: {weatherInput.temperature}°C</p> : <p style={{color:"blue"}}>Temperature: {weatherInput.temperature}°C</p>}
+         {weatherInput.temperature > 20 ? <p style={{color:"red"}}>Temperature: {weatherInput.temperature}</p> : <p style={{color:"blue"}}>Temperature: {weatherInput.temperature}</p>}
         <p>Conditions: {weatherInput.conditions}</p>
     </div>
   )
